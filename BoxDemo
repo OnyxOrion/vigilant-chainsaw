@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>box demo</title>
+        <style>
+ div {
+                width: 250px;
+                height: 150px;
+                background: #F4A900;
+                border: 2px solid #000;
+            }
+            #box1 {
+                width: 500px;
+                background-image: linear-gradient(135deg, #AF2B1E 10%, #af2bb3 100%);
+                border-bottom: 20px solid #000;
+                border-top: 10px solid plum;
+                margin-left: 300px
+            }
+            #box2{
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                border: 8x solid #fccf31;
+                box-shadow: 0 0 50px #f55555cc,0px 0px 7px #000;
+                background-image: linear-gradient (135deg, #fccf31 10%, #f55555 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fccf31;
+                font-size: 25px;
+                font-weight: 900;
+                text-align: center;
+            }
+            </style>
+           
+            </head>
+
+            <body>
+                <div id="box1"><p>This is a box.</p></div>
+                <div id="box2"><p>Hey look, heres another.</p></div>
+                <div id="box3"><p>Would you guess, its another box.</p></div>
+                <div id="box4"><p>I'm getting sick of these fucking boxes man.</p></div>
+            </body>
+            </html>
