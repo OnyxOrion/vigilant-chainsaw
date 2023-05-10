@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>image.html</title>
+    <style>
+        html{
+            background: linear-gradient(220deg, #9A8C98 10%, #C9ADA7 100%);
+            background-size: cover;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+        img {
+            border: 5px solid #f00;
+            border-radius: 30px;
+            box-shadow: 5px 5px 20px #888;
+        }
+    </style>
+    </head>
+
+<body>
+<h1>it was here it was here i swear<h1>
+    <img
+    src="pexels-ekaterina-astakhova-3476030.jpg" 
+    alt="where is home?"
+    width="200px" 
+    />
+</body>
+</html>
